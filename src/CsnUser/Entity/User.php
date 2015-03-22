@@ -56,6 +56,14 @@ class User
      *   "required":"true"
      * })
      */
+     
+     /**
+     * @var string
+     *
+     * without this var  there comes an error displayName is undifined?!
+     */
+    protected $displayName;
+    
     protected $username;
 
     /**
